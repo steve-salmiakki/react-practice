@@ -1,0 +1,98 @@
+/*********
+.btn-add-new
+*********/
+.btn-add-new{
+    background-color: rgb(237, 237, 237);
+    color: rgb(117, 117, 117);
+    height: 40px;
+    text-align: center;
+    font-weight: bold;  
+    width: 12.5%; 
+    border: none;
+    border-radius: 2.5px; 
+    float: right;
+    margin: 16px;
+}
+
+.btn-add-new:hover {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/********
+General
+    Button
+********/
+.button{
+    padding: 0;
+    position: relative;
+    text-align: center;
+    float: right;
+    margin: 16px;
+}
+
+.button img{
+    fill: #909090;
+    height: 24px;
+    width: 24px;
+    
+}
+
+ .btn-cancel, .btn-save{
+    display: inline-block;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 0 2.5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 17px;
+}
+
+.btn-edit, .btn-delete{
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    margin: 0 25px 0 0;
+    background: #ffffff;
+}
+
+/******
+.btn-edit
+.btn-delete
+.btn-save
+.btn-cancel
+*******/
+
+
+.btn-edit{
+
+}
+
+.btn-delete{
+
+}
+
+
+.btn-cancel{
+    background-color: rgb(237, 237, 237);
+    color: #07f;
+}
+
+.btn-save{
+    background-color:#07f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+} /*REQUIREMENTS*/
+
+
+.btn-edit:hover, .btn-delete:hover, .btn-cancel:hover, .btn-save:hover{
+    
+    
+    
+}
+

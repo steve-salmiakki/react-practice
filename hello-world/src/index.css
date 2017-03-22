@@ -1,0 +1,298 @@
+/****
+GENERNAL
+****/
+html, body, .container, .banner, .inner-banner, .main, .banner img, .banner p, .title, information{
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+/*****
+CONTAINER
+*****/
+.container {
+  margin: 0 auto;
+  background-color: rgb(241, 241, 241);
+  display:table; 
+  border: none; 
+  padding-bottom: 200px;
+
+  
+}
+
+
+
+/*****
+BANNER
+*****/
+.banner{
+  
+  background-color: rgb(173, 181, 189); 
+  color: #fff;
+  
+  padding: 32px;
+    
+}
+
+.banner img{
+  
+  max-height: 32px;
+  padding-right: 1em;  
+}
+
+.banner p{
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 25px;
+  position: absolute;
+}
+/*****
+MAIN
+*****/
+
+.main{
+  padding: 32px 32px 0 32px;
+  font-size: 24px;
+  color: rgba(1,1,1,0.5);
+  font-weight: 600;
+  width: 912px;
+}
+
+
+
+
+/*********
+GENERAL FORM
+********/
+form{
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.filling-form{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+/*****
+GENERAL INPUT
+******/
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 0px;
+  margin: 16px;
+  border: solid 1px rgb(238,238,238);
+  font-size: 16px;
+  height: 38px; /* + border 2px  = 40px*/
+  background-color: rgb(250,250,250);
+  color: rgb(144,144,144);
+  border-radius: 2.5%;
+  text-indent: 8px;
+  
+}
+
+
+/****
+INPUT
+****/
+input[type="text"]{
+  width: 16%;
+  margin-right: 12px;
+}
+
+input[type="email"]{
+  width: 30.5%;
+  margin-right: 12px;
+}
+
+input[type="phone"]{
+  width: 16%;
+}
+
+/*input[type=submit] {}*/
+
+
+
+
+
+
+/*****
+title
+******/
+.title{
+  margin: 10px 0px 1px 0;
+  padding: 0 16px;
+  background-color: rgb(255, 255, 255);
+  height: 48px;
+  font-size:0;
+  line-height: 0;
+  
+}
+
+
+
+/*******
+.name
+.email
+.phoneNumber
+*******/
+.name, .email{
+  
+}
+
+.name, .email, .phoneNumber{
+  display: inline-block;
+}
+
+.name p, .email p, .phoneNumber p{
+  color: #757575;    
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+} /*Requirement */
+
+.name{
+  position: relative;
+  width: 19%;
+  margin-right: 12px;
+}
+
+.name p{
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+.name img{
+  position: absolute;
+  max-height: 12px;
+  top: 16px;
+}
+
+.email{
+  width: 30.5%;
+  margin-right: 12px;
+}
+
+.phoneNumber{
+  margin: 0;
+  width: 16%;
+}
+
+
+/***
+GENERAL .participants-information
+***/
+.participants-information {
+  margin: 1px 0px;
+  
+  background-color: rgb(255, 255, 255);
+  height: 72px;
+  
+  
+  
+}
+
+
+/*******
+GENERAL
+*******/
+
+.participants-name, .participants-phoneNumber, .participants-email{
+  display: inline-block;  
+  padding: 0;
+  margin: 24px;
+}/*REQUIREMENTS*/
+
+.participants-information p{
+  font-size: 16px;
+  color: #505050;    
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.participants-name, .participants-email{
+    margin-right: 12px;
+}
+
+
+/******
+.participants-name
+.participants-email
+.participants-phoneNumber
+*******/
+.participants-name{
+  
+  width: 14%;
+  
+}
+
+.participants-email{
+  width: 29.5%;
+  
+}
+
+.participants-phoneNumber{
+  width: 18%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********
+MEDIA QUERIES
+**********/
+
+@media screen and (max-width: 970px )and (min-width: 80px) {
+    body {
+        background-color: lightgreen;
+      
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+/*     display: block; */
+       width: 100%;
+      font-size: 0.8em;
+      -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    width: 100%;
+    font-size: 0.9em;
+    float: none;
+  }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+   margin-bottom: 5px;   
+  }
+  
+  
+ 
+
+}
